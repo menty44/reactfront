@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Footer from './components/footer.component';
 
 function App() {
   return (
@@ -15,10 +16,11 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
+        >ig
           Learn React
         </a>
       </header>
+      <Footer/>
     </div>
   );
 }
